@@ -1,0 +1,143 @@
+{
+  "editor.tabSize": 2,
+  "[swift]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.rulers": [100, 120],
+    "editor.formatOnSave": false
+  },
+  "python.terminal.activateEnvironment": true,
+  "python.formatting.provider": "black",
+  "python.languageServer": "Pylance",
+  "python.defaultInterpreterPath": "/usr/local/opt/python@3.9/bin/python3.9",
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.autoImportCompletions": true,
+
+  "isort.args": ["--profile", "black"],
+  "editor.rulers": [80, 120],
+  "vim.vimrc.enable": true,
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "editor.formatOnSave": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.enablePreview": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": false
+  },
+  "html.format.extraLiners": "",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "files.associations": {
+    "**/templates/*.html": "django-html"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "workbench.editor.wrapTabs": true,
+  "editor.minimap.enabled": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.venv": true,
+    "**/*.*.meta": true,
+    "**/*.cubemap": true,
+    "**/*.fbx": true,
+    "**/*.FBX": true,
+    "**/*.mat": true,
+    "**/*.meta": true,
+    "**/*.prefab": true,
+    "**/*.tga": true,
+    "**/*.unity": true,
+    "**/*.unityproj": true,
+    "**/Library": true,
+    "**/luckysheet": true,
+    "**/node_modules": true,
+    "**/ProjectSettings": true,
+    "**/Temp": true
+  },
+  "explorer.confirmDelete": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "csharpier.enableDebugLogs": true,
+  "omnisharp.useModernNet": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "update.mode": "manual",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vscode-neovim.compositeKeys": {
+    "jk": {
+      // Use lua to execute any logic
+      "command": "vscode-neovim.lua",
+      "args": [
+        [
+          "local code = require('vscode-neovim')",
+          "code.action('vscode-neovim.escape')",
+          "code.action('workbench.action.files.save')"
+        ]
+      ]
+    }
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.launch.expressions": "native",
+  "editor.accessibilitySupport": "off",
+  "extensions.ignoreRecommendations": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "python": false
+  }
+}
